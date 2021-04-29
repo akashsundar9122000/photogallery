@@ -59,3 +59,21 @@
   top :0;
   left: 0;
 }
+
+.imageextender{
+  position: fixed;
+  top:0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.imageextender img{
+  display: block;
+  max-width: 60%;
+  max-height: 80%;
+  margin: 60px auto; /*center from left and right*/
+  box-shadow: 3px 5px 7px rgba(0, 0, 0, 0.5);
+  border: solid white;
+}
